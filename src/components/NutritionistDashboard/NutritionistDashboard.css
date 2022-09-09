@@ -1,0 +1,23 @@
+.nutritionist-dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 6rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    box-shadow:8px 8px 40px 1px rgba(166,192,161,0.50);
+    gap: 3rem;
+
+}
+
+.nutritionist-dashboard__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    overflow: scroll;
+    height: 35rem;
+
+    margin: auto;
+
+}
